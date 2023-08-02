@@ -173,20 +173,6 @@ color: black;
   border-radius: 4px;
   margin-bottom: 5px;
 }
-@media only screen and (min-width : 501px) and (max-width : 1024px)
-{
-  * {
-    margin: 0;
-    padding : 0
-  }
-  html{
-    box-sizing:border-box;
-  }
- .home{
-  width: 100%;
- }
-} 
-
 
 /* contact */
 #contact
@@ -231,5 +217,17 @@ section i{
 .media li{
   margin: 20px 30px;
 }
-
+@media only screen and (min-width : 501px) and (max-width : 1024px)
+{
+  * {
+    margin: 0;
+    padding : 0
+  }
+  html{
+    box-sizing:border-box;
+  }
+ .home{
+  width: 100%;
+ }
+} 
  
